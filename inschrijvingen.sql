@@ -1,5 +1,5 @@
 USE lo8e_sql2;
 
 UPDATE studenten
-SET geboortedatum = "20-01-1993" 
-WHERE ov_nummer = '90003';
+SET inschrijvings_datum = "inactief" 
+WHERE inschrijvings_datum = '1-1-2017';
